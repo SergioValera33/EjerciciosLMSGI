@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT  batman (personajes)>
+<!ELEMENT  personajes (personaje)+ >
+<!ELEMENT  personaje (nombreReal, edad, (heroe | villano)) >
+<!ELEMENT  nombreReal (#PCDATA)>
+<!ELEMENT  edad (#PCDATA | fechaNacimiento)*>
+<!ELEMENT fechaNacimiento (#PCDATA) >
+<!ELEMENT  heroe EMPTY>
+<!ELEMENT  villano EMPTY>
+<!ATTLIST personaje nombre ( batman | robin | joker | pingüino | harley) "batman"
+                    colorTraje  CDATA #IMPLIED 
+                    altura CDATA #REQUIRED
+                    ciudad CDATA  #FIXED "Gotham city"
+                    codigo ID #REQUIRED
+                    codigoDeEnemigoPrincipal IDREF #IMPLIED>
+      
+                    
+                    
+                    

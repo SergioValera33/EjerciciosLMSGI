@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE batman SYSTEM "batman.dtd">
+<batman>
+    <personajes>
+        <personaje nombre = "batman"  codigo = " bat" codigoDeEnemigoPrincipal = "joker"coloTraje= "Negro" altura = " 1.90">
+            <nombreReal> Bruce Wayne</nombreReal>
+            <edad> 40
+            <fechaNacimiento>3/10/1983 </fechaNacimiento>
+            </edad>
+            <heroe/>     
+        </personaje>
+        <personaje nombre = "harley" codido = "har"altura = "1.78" ciudad = "Gotham City">
+            <nombreReal>Doctora psicóloga</nombreReal>
+            <edad> 32
+                <fechaNacimiento>3/10 /1991</fechaNacimiento>
+            </edad>
+            <villano/>     
+        </personaje>
+        <personaje nombre = "joker" codido = "jok"altura = "1.85" ciudad = "Gotham City">
+            <nombreReal>Mafiosillo</nombreReal>
+            <edad> 57
+                <fechaNacimiento>3/10 /1966</fechaNacimiento>
+            </edad>
+            <villano/>     
+        </personaje>
+    </personajes>
+</batman>

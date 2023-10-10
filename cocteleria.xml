@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cocteleria SYSTEM "cocteleria.dtd">
+<cocteleria direccion="C. Goya, 8, 14006 Córdoba" nombre="Distrito Cocktail Bar" telefono="675420174">
+    <cocteles>
+        <coctel codigo="nariz" bebidaPrincipal="vodka">
+            <nombre> Gato cósmico</nombre>
+            <propiacreacion/>
+            <precio coste="7.5" />
+            <existencias />
+        </coctel>
+        <coctel codigo="ench">
+            <nombre>Rudolph </nombre>
+            <precio coste="8" />
+            <agotado />
+        </coctel>
+    </cocteles>
+    <ofertas>
+        <oferta coste="18">2x1 
+        </oferta>
+    </ofertas>
+</cocteleria>
